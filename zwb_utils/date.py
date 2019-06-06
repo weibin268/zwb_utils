@@ -4,7 +4,7 @@ import time
 DEFUALT_DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 
 
-def to_string(date):
+def to_string(date: datetime.datetime):
     return date.strftime(DEFUALT_DATETIME_FORMAT)
 
 
